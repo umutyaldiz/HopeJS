@@ -1,6 +1,6 @@
 {
   "name": "@umutyaldiz/hopejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Frontend Javascript Library - HELPER",
   "type": "module",
   "main": "index.js",
