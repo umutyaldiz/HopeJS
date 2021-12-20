@@ -6,14 +6,32 @@ npm install @umutyaldiz/hopejs
 
 # Components
 import {
+    
+
     Page, //extended Class
+
+
     Slider,
+    
+
     LazyLoad,
+
+
     isInViewport,
+
+
     Scroll,
+
+
     Slider,
+
+
     Tracker,
+
+
     LazyLoad
+
+
     } from '@umutyaldiz/hopejs';
 
 # Demo Page
