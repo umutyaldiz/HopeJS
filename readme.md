@@ -1,3 +1,6 @@
+# Installation
+npm install @umutyaldiz/hopejs
+
 # FrontEnd-Architecture @umutyaldiz/hopejs
 ES6 Javascript FrontEnd Helper package.
 
