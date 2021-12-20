@@ -1,0 +1,27 @@
+{
+  "name": "@umutyaldiz/hopejs",
+  "version": "0.0.1",
+  "description": "Frontend Javascript Library - HELPER",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "repos",
+    "repositories",
+    "slider",
+    "swiper",
+    "tracker",
+    "scroll",
+    "extendClass",
+    "lazyLoad"
+  ],
+  "author": "Umut Yaldız  <umutyaldiz95@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "regenerator-runtime": "^0.13.9"
+  }
+}
