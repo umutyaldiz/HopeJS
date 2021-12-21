@@ -1,6 +1,6 @@
-# FrontEnd-Architecture @umutyaldiz/hopejs
+# @umutyaldiz/hopejs
 
-ES6 Javascript FrontEnd Helper package.
+FrontEnd Project Builder
 
   
 
