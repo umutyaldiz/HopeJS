@@ -24,9 +24,6 @@ export default class Page {
     }
 
     Load() {
-        console.info("Page Settings");
-        console.log(this.options);
-
         if (this.options.scrollEvents.scroll) {
             this.scroll.On((properties) => { // return {x,y,direction}
                 this.scroll.ScrollEvents(properties, this.options.scrollEvents.events); //page custom scroll Events
@@ -34,7 +31,6 @@ export default class Page {
                     this.tracker.ElementViewTrack(this.options.trackerViewClass); //default view object set
                 }
             });
-
         }
     }
 }

@@ -17,8 +17,10 @@ export default class Slider {
             return '<span data-slider-index="' + index + '" class="' + className + '">' + (index + 1) + "</span>";
           }
         }
-      }
+      },
     };
+    this.pagination = { ...this.pagination, ...this.setupOptions.paginationTypes }; //merge
+
     this.onFunc = {
       'type1': {
         on: {
@@ -33,6 +35,7 @@ export default class Slider {
         }
       }
     }
+    this.onFunc = { ...this.onFunc, ...this.setupOptions.onFuncTypes }; //merge
   };
 
   Init() {

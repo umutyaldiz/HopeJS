@@ -35,7 +35,31 @@ import { Page, Slider, LazyLoad, isInViewport, Scroll, Tracker } from '@umutyald
     
     new Slider({
     	'plugin':Swiper,
-    	'modules': [Navigation, Pagination]
+    	'modules': [Navigation, Pagination],
+        'paginationTypes': {
+                'type2': {
+                    pagination: {
+                        el: '.swiper-pagination',
+                        renderBullet: function (index, className) {
+                            return '<span data-slider-index="' + index + '" class="' + className + '"></span>';
+                        }
+                    }
+                }
+        },
+        'onFuncTypes':{
+                'type2': {
+                    on: {
+                    init: function (swiper) {
+                        const bullets = swiper.pagination.bullets;
+                        for (let i = 0, length = bullets.length; i < length; i++) {
+                        bullets[i].addEventListener("mouseover", () => {
+                            swiper.slideTo(bullets[i].getAttribute('data-slider-index'));
+                        });
+                        }
+                    }
+                    }
+                }
+        }
     });
     this.sliders.Init();
 
