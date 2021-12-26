@@ -1,6 +1,6 @@
 {
   "name": "@umutyaldiz/hopejs",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Frontend Javascript Builder",
   "type": "module",
   "main": "index.js",
@@ -26,7 +26,7 @@
     "builder"
   ],
   "author": "Umut Yaldız  <umutyaldiz95@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "regenerator-runtime": "^0.13.9"
   }
