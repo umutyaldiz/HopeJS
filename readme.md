@@ -111,6 +111,3 @@ import { Page, Slider, LazyLoad, isInViewport, Scroll, Tracker } from '@umutyald
 [Github Repo Demo](https://github.com/umutyaldiz/FrontEnd-Architecture/tree/dev)
 
   
-  
-
-[FrontEnd-Architecture DEMO](https://umutyaldiz.com/hopejs-example/)
